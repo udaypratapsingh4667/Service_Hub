@@ -3,7 +3,7 @@
 <div align="center">
   <h1 style="border-bottom: none; font-size: 2.8rem; font-weight: 800; color: #6a5af9; margin-bottom: 0.5rem;">ServiceHub</h1>
   <p style="font-size: 1.2rem; color: #444; margin-bottom: 1.5rem;">A modern platform for discovering, booking, and managing local services.</p>
-  <img src="back-end/screenshots/landing-page.png" alt="Landing Page Screenshot" style="max-width: 700px; border-radius: 16px; box-shadow: 0 4px 24px rgba(106,90,249,0.12); margin-bottom: 1.5rem;" />
+  <img src="back-end/screenshots/Screenshot 2025-10-04 112002.png" alt="Landing Page Screenshot" style="max-width: 700px; border-radius: 16px; box-shadow: 0 4px 24px rgba(106,90,249,0.12); margin-bottom: 1.5rem;" />
 </div>
 
 
@@ -36,7 +36,6 @@ Local_services_finder/
 │   ├── server.js           # Express server entry point
 │   ├── Service.js          # Service model and logic
 │   ├── package.json        # Backend dependencies
-│   ├── uploads/            # Uploaded service images
 │   └── ...
 ├── front-end/
 │   ├── src/
@@ -140,7 +139,7 @@ This project is licensed under the MIT License.
 ## 📬 Contact
 
 - Author: udaypratapsingh4667
-- GitHub: [ServiceHub](https://github.com/udaypratapsingh4667/ServiceHub)
+- GitHub: [ServiceHub](https://github.com/udaypratapsingh4667/Service_Hub)
 
 ---
 
