@@ -1,17 +1,17 @@
 /* 🌤️ Clean Light Mode Theme - ServiceHub (Enhanced) */
 
 :root {
-  --primary-color: #0a66ff;
-  --secondary-color: #f5f7fa;
-  --accent-color: #004ad6;
-  --text-color: #1f2937;
-  --text-muted: #6b7280;
-  --border-color: #e5e7eb;
-  --bg-light: #ffffff;
-  --bg-gradient: linear-gradient(180deg, #fafdff 0%, #ebf3ff 100%);
-  --surface: #ffffff;
-  --shadow-sm: 0 2px 8px rgba(16, 24, 40, 0.06);
-  --shadow-md: 0 8px 24px rgba(16, 24, 40, 0.08);
+  --primary-color: #00BFA5;
+  --secondary-color: #F5F5F5;
+  --accent-color: #FF6F00;
+  --text-color: #212121;
+  --text-muted: #757575;
+  --border-color: #BDBDBD;
+  --bg-light: #FFFFFF;
+  --bg-gradient: linear-gradient(180deg, #F5F5F5 0%, #E0F2F1 100%);
+  --surface: #FFFFFF;
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.1);
+  --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.15);
   --radius-sm: 10px;
   --radius-md: 14px;
   --radius-lg: 18px;

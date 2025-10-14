@@ -1,20 +1,20 @@
 /* --- GLOBAL FONT IMPORT --- */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
 
-/* --- MODERN COLOR PALETTE & ROOT VARIABLES --- */
+/* --- UNIQUE VIBRANT PALETTE & ROOT VARIABLES --- */
 :root {
   /* Colors */
-  --primary-color: #8A78F1; 
-  --primary-light: #A797F7; 
-  --accent-color: #F472B6;
-  --dark-bg: #0F1014; 
-  --card-bg: #18191E; 
-  --text-primary: #F2F2F5;
-  --text-secondary: #9092A0; 
-  --border-color: #2D2E35;
-  --success-color: #2ecc71; 
-  --warning-color: #f39c12; 
-  --error-color: #e74c3c;
+  --primary-color: #00BFA5;
+  --primary-light: #26D0CE;
+  --accent-color: #FF6F00;
+  --dark-bg: #F5F5F5;
+  --card-bg: #FFFFFF;
+  --text-primary: #212121;
+  --text-secondary: #757575;
+  --border-color: #BDBDBD;
+  --success-color: #4CAF50;
+  --warning-color: #FF9800;
+  --error-color: #F44336;
 
   /* Sizing & Spacing */
   --spacing-sm: 8px;
@@ -25,7 +25,7 @@
   /* Borders & Shadows */
   --border-radius-sm: 8px;
   --border-radius-md: 12px;
-  --box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  --box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
 }
 
 /* --- BASE & SCROLLBAR STYLES --- */
