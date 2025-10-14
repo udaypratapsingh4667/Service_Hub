@@ -1,5 +1,6 @@
 /* This file now relies on variables from index.css */
 
+
 /* --- Main Container & Layout --- */
 .login-container {
     min-height: 100vh;
@@ -11,6 +12,7 @@
     color: var(--text-primary);
     overflow: hidden;
 }
+
 
 /* --- 1. Form Panel (Left Side) --- */
 .form-panel {
@@ -58,6 +60,7 @@
     color: var(--text-secondary);
     margin-bottom: 2rem;
 }
+
 
 /* --- Inputs & Icons --- */
 .login-form {
@@ -155,24 +158,30 @@
     box-shadow: 0 6px 20px rgba(138, 120, 241, 0.3);
 }
 
+
 /* --- OR Divider & Social Login --- */
 .divider {
     display: flex;
     align-items: center;
     text-align: center;
-    color: var(--text-secondary);
-    font-size: 0.85rem;
+    color: #666 !important;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
     margin: 2rem 0;
     animation: slideInUp 0.7s ease-out both;
     animation-delay: 0.5s;
 }
-.divider::before, .divider::after {
+.divider::before,
+.divider::after {
     content: '';
     flex: 1;
-    border-bottom: 1px solid var(--border-color);
+    border-bottom: 1px solid #bbb !important;
+    margin: 0 1rem;
 }
-.divider:not(:empty)::before { margin-right: .5em; }
-.divider:not(:empty)::after { margin-left: .5em; }
+.divider:not(:empty)::before { margin-right: 1rem; }
+.divider:not(:empty)::after { margin-left: 1rem; }
 
 .social-logins {
     display: flex;
@@ -189,40 +198,42 @@
     width: 100%;
     padding: 0.8rem 1rem;
     background-color: transparent;
-    border: 1px solid var(--border-color);
-    border-radius: var(--border-radius-sm);
-    color: var(--text-primary);
-    font-size: 0.9rem;
+    border: 1px solid #444 !important;
+    border-radius: var(--border-radius-sm, 8px);
+    color: #444 !important;
+    font-size: 1rem;
     font-weight: 500;
     cursor: pointer;
     transition: all 0.3s ease;
 }
 .social-btn:hover {
-    background-color: var(--border-color);
+    background-color: #eee !important;
 }
 .social-btn svg {
-    color: var(--text-secondary);
+    color: #666 !important;
 }
+
 
 /* --- Switch to Signup Link --- */
 .switch-text {
-    font-size: 0.9rem;
+    font-size: 1rem;
     text-align: center;
     margin-top: 2rem;
-    color: var(--text-secondary);
+    color: #444 !important;
     animation: slideInUp 0.7s ease-out both;
     animation-delay: 0.7s;
 }
 .switch-text a {
-    color: var(--primary-light);
+    color: #0563bb !important;
     text-decoration: none;
     font-weight: 600;
     transition: color 0.3s ease;
 }
 .switch-text a:hover {
     text-decoration: underline;
-    color: var(--accent-color);
+    color: #0a6cd9 !important;
 }
+
 
 /* --- 2. Branding Panel (Right Side) --- */
 .branding-panel {
@@ -256,6 +267,7 @@
     line-height: 1.6;
 }
 
+
 /* Animated background shapes */
 .branding-panel::before, .branding-panel::after {
     content: '';
@@ -284,6 +296,7 @@
     from { opacity: 0; }
     to { opacity: 1; }
 }
+
 
 /* --- Responsive Design --- */
 @media (max-width: 900px) {
